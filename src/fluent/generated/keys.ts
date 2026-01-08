@@ -5,6 +5,10 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '35909ab9c3d63210ccf9f1d4e40131ea': {
+                        table: 'sys_script_include'
+                        id: '35909ab9c3d63210ccf9f1d4e40131ea'
+                    }
                     '519efd3dc3123210ccf9f1d4e40131d0': {
                         table: 'sys_script_include'
                         id: '519efd3dc3123210ccf9f1d4e40131d0'

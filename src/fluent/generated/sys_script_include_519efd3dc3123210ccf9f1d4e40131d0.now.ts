@@ -11,4 +11,7 @@ ScriptInclude({
     accessibleFrom: 'public',
     active: true,
     protectionPolicy: 'read',
+    description: `Tiny Validator (for v4 JSON Schema)&#13;
+&#13;
+https://www.npmjs.com/package/tv4?activeTab=readme`,
 })
