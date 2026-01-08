@@ -1,5 +1,11 @@
 {
     "scope": "x_984628_tv4_json",
     "scopeId": "f7fdd5fdc3123210ccf9f1d4e40131a6",
-    "name": "TV4 JSON Schema Validator"
+    "name": "TV4 JSON Schema Validator",
+    "accessControls": {
+        "runtimeAccessTracking": "none"
+    },
+    "licensing": {
+        "enforceLicense": "none"
+    }
 }
