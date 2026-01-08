@@ -1,14 +1,28 @@
 class ErrorResponseGenerator {
 
     createErrorResponse(result) {
-		let errors = result.errors;
+        let reponseBody = {
+            message: 'Invalid payload',
+            errors: []
+        };
 
-        gs.debug(JSON.stringify(errors));
+        let errors = result.errors;
 
         for (const key in errors) {
-            gs.debug(errors[key].message);
-            gs.debug(errors[key].code);
-            gs.debug(errors[key].dataPath);
+            let error = {
+                message: '',
+                code: '',
+                dataPath: ''
+            };
+
+            error.message = errors[key].message;
+            error.code = errors[key].code;
+            error.dataPath = errors[key].dataPath;
+
+            reponseBody.errors.push(error);
         }
+
+        return reponseBody;
     }
+
 }
