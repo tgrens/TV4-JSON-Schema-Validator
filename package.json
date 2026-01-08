@@ -9,6 +9,11 @@
         "transform": "now-sdk transform",
         "types": "now-sdk dependencies"
     },
+
+    "dependencies": {
+        "tv4": "1.3.0"
+    },
+
     "devDependencies": {
         "@servicenow/sdk": "4.1.1",
         "@servicenow/glide": "26.0.1",
